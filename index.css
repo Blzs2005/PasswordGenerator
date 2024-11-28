@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  background-color: #1c1c1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#base-background {
+  background-color: #1f2937;
+  width: 500px;
+  height: 200px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+#text1 {
+  color: white;
+  font-family: "Karla", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#text2 {
+  margin-top: 0px;
+  color: #10b981;
+  font-family: "Karla", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+#text3 {
+  color: #d5d4d8;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#button {
+  color: white;
+  background-color: #10b981;
+  border: solid #10b981;
+  border-radius: 6px;
+  width: 200px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+#button:hover {
+  color: #10b981;
+  background-color: white;
+  border-color: white;
+}
+
+#line {
+  text-align: center;
+  border-top: #2f3e53 2px solid;
+  margin-right: 50px;
+  margin-bottom: 0px;
+}
+
+#outputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+#output1 {
+  color: #55f991;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 45px;
+  background-color: #273549;
+  border-radius: 10px;
+}
+
+#output2 {
+  color: #55f991;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 45px;
+  background-color: #273549;
+  border-radius: 10px;
+}
